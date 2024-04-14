@@ -10,32 +10,32 @@ const questions = [
   {
     id: 1,
     question: vercelImage,
-    answer: "test",
+    answer: "test 1",
   },
   {
     id: 2,
     question: vercelImage,
-    answer: "test2",
+    answer: "test 2",
   },
   {
     id: 3,
     question: vercelImage,
-    answer: "test3",
+    answer: "test 3",
   },
   {
     id: 4,
     question: vercelImage,
-    answer: "test4",
+    answer: "test 4",
   },
   {
     id: 5,
     question: vercelImage,
-    answer: "test5",
+    answer: "test 5",
   },
   {
     id: 6,
     question: vercelImage,
-    answer: "test6",
+    answer: "test 6",
   },
 ];
 
@@ -44,27 +44,27 @@ const questions = [
 const answers = [
   {
     id: 1,
-    name: "test",
+    name: "test 1",
   },
   {
     id: 2,
-    name: "test2",
+    name: "test2 ",
   },
   {
     id: 3,
-    name: "test3",
+    name: "test 3",
   },
   {
     id: 4,
-    name: "test4",
+    name: "test 4",
   },
   {
     id: 5,
-    name: "test5",
+    name: "test 5",
   },
   {
     id: 6,
-    name: "test6",
+    name: "test 6",
   },
 ];
 let ShuffledQuestion = questions.sort(() => Math.random() - 0.5);
